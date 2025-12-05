@@ -1,7 +1,4 @@
 name = "chinese-horoscope-web"
-compatibility_flags = [ "nodejs_compat" ]
+compatibility_flags = ["nodejs_compat"]
 
-[build]
-command = "npm run build"
-cwd = "."
-pages_build_output_dir = ".vercel/output/static"
+pages_build_output_dir = "./.vercel/output/static"
