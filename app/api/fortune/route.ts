@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createClient } from "@supabase/supabase-js";
 
-export const runtime = "edge";            // Cloudflare Pages 推荐
+export const runtime = "nodejs"; // 强制使用 Node runtime
 export const dynamic = "force-dynamic";   // 防止构建阶段执行 API 代码
 
 export async function POST(req: NextRequest) {
