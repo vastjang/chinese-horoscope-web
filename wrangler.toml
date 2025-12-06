@@ -1,12 +1,11 @@
 name = "chinese-horoscope-web"
 main = ".open-next/worker.js"
-compatibility_date = "2024-12-01"
+compatibility_date = "2024-09-09"
 compatibility_flags = ["nodejs_compat"]
 
-[site]
-bucket = ".open-next/assets"
-
 [assets]
-rules = [
-  { type = "Data" }
-]
+directory = ".open-next/assets"
+
+[env.production]
+vars = { }
+
