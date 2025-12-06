@@ -1,7 +1,9 @@
-import type { NextConfig } from "next";
+import type { OpenNextConfig } from "opennext";
 
-const nextConfig: NextConfig = {
-  /* config options here */
+const config: OpenNextConfig = {
+  default: {
+    output: ".open-next"
+  }
 };
 
-export default nextConfig;
+export default config;
