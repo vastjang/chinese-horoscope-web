@@ -1,4 +1,5 @@
 name = "chinese-horoscope-web"
-compatibility_flags = ["nodejs_compat"]
+compatibility_date = "2024-11-11"
 
-pages_build_output_dir = "./.vercel/output/static"
+# ⚠️ Pages 不需要 main 或 build 指令，全部由 OpenNext 输出
+pages_build_output_dir = ".open-next"
