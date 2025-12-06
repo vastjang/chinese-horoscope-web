@@ -13,9 +13,8 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "@opennextjs/opennext": "2.3.2",
-    "@opennextjs/cloudflare": "2.3.2",
-    "wrangler": "3.80.0",
+    "@opennextjs/cloudflare": "1.8.2",
+    "wrangler": "latest",
     "typescript": "5.3.3"
   }
 }
