@@ -3,4 +3,3 @@ compatibility_date = "2024-11-11"
 
 # ⚠️ Pages 不需要 main 或 build 指令，全部由 OpenNext 输出
 pages_build_output_dir = ".open-next"
-functions = "./.open-next"
