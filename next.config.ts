@@ -1,9 +1,8 @@
-import type { OpenNextConfig } from "opennext";
+import type { NextConfig } from "next";
 
-const config: OpenNextConfig = {
-  default: {
-    output: ".open-next"
-  }
+const nextConfig: NextConfig = {
+  // OpenNext will manage the final output directory via open-next.config.ts.
+  reactStrictMode: true,
 };
 
-export default config;
+export default nextConfig;
